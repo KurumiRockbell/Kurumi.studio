@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="/dist/output.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css">
+      <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+      <title>Kurumi.Discover</title>
+   </head>
+   <body>
+      <!-- Navbar -->
+      <div class="navbar bg-base-200 px-4">
+         <div class="dropdown flex-1">
+            <label tabindex="0" class="btn btn-ghost btn-circle">
+               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+               </svg>
+            </label>
+            <!-- Dropdown menu -->
+            <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+               <li><a role="btn" href="index.html">Home</a></li>
+               <li><a role="btn" href="discover.html" class="text-pink-600">Discover me</a></li>
+               <li><a role="btn" href="works.html">My Works</a></li>
+               <li><a role="btn" href="licences.html">Licences</a></li>
+            </ul>
+         </div>
+         <!-- Switch theme section -->
+         <button class="btn btn-square btn-ghost">
+            <label class="swap swap-rotate">
+               <!-- this hidden checkbox controls the state -->
+               <input type="checkbox" class="hidden" />
+               <!-- sun icon -->
+               <svg class="swap-on fill-current w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z"/>
+               </svg>
+               <!-- moon icon -->
+               <svg class="swap-off fill-current w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z"/>
+               </svg>
+            </label>
+         </button>
+      </div>
+      <div class="w-full lg:w-6/12 px-4 mx-auto">
+         <div class="relative flex flex-col min-w-0 break-words bg-none w-full mb-6 shadow-xl rounded-lg mt-16">
+            <div class="px-6">
+               <div class="flex flex-wrap justify-center">
+                  <div class="w-full px-4 flex justify-center">
+                     <div class="relative transition ease-in-out delay-150">
+                        <img alt="Kurumi_portrait" src="/assets/imgs/photo.png" class="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px">
+                     </div>
+                  </div>
+               </div>
+               <div class="text-center mt-32">
+                  <h3 class="text-xl font-semibold leading-normal text-white mb-2">
+                     Gea Geoffrey
+                  </h3>
+                  <div class="text-sm leading-normal mt-0 mb-2 text-blueGray-400 font-bold uppercase">
+                     <i class="fas fa-map-marker-alt mr-2 text-lg text-pink-400"></i>
+                     Marseille, France
+                  </div>
+                  <div class="mb-2 text-teal-50 mt-10">
+                     <i class="fas fa-briefcase mr-2 text-lg text-pink-400"></i><br>
+                     <strong>Search</strong> for a work-study program Application designer and developer
+                  </div>
+                  <div class="mb-2 text-teal-50">
+                     <i class="fas fa-university mr-2 text-lg text-pink-400"></i><br>
+                     Web Developer & Graphic designer graduation
+                  </div>
+                  <div class="mb-2 text-teal-50">
+                     <i class="fas fa-envelope mr-2 text-lg text-pink-400"></i><br>
+                     Gea.geoffrey@protonmail.com 
+                  </div>
+                  <a href="./assets/pdf/CV GEA Geoffrey.pdf" download="GEA Geoffrey CV"><button class="btn text-indigo-950 bg-gradient-to-br from-blue-400 to-green-400 mt-6">Download my CV here</button></a>
+               </div>
+               <div class="mt-10 py-10 border-t border-blueGray-200 text-center">
+                  <div class="flex flex-wrap justify-center">
+                     <div class="w-full lg:w-9/12 px-4">
+                        <p class="mb-4 text-lg leading-relaxed text-white prose">
+                           My name is Geoffrey alias <em>Kurumi</em>, Junior Web developer from Marseille, France.
+                           I am currently a "web development and mobile web learner", but also a web writer for Coin Academy.
+                           I studied graphic design and communication at the university from <em>2017 to 2020</em>,
+                           I am also a graduate of the professional title Graphic design option visual communication in  Marseille.
+                           Passionate about web development, I like to experiment, discover and learn new technologies, always with an artistic eye.
+                           I will present you here my skills, my background and my main integrations and graphic creations.
+                           For any question, don't hesitate to contact me.
+                        </p>
+                        <a href="/works.html" class="font-normal text-pink-500">
+                        Show more
+                        </a>
+                        <div class="flex flex-row justify-center mt-6">
+                           <a href="https://www.linkedin.com/in/geoffrey-gea-618bb7259">
+                              <svg
+                                 class="w-6 h-6 fill-current mr-4 hover:text-pink-500"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 viewBox="0 0 448 512">
+                                 <path
+                                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                                    />
+                              </svg>
+                           </a>
+                           <a href="https://github.com/KurumiRockbell">
+                              <svg 
+                                 xmlns="http://www.w3.org/2000/svg" 
+                                 class="w-6 h-6 fill-current mr-4 hover:text-pink-500" 
+                                 viewBox="0 0 24 24">
+                                 <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                                    />
+                              </svg>
+                           </a>
+                           <a href="https://coinacademy.fr/author/geoffreyg/">
+                              <svg 
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 class="h-6 w-6 fill-current hover:text-pink-500" 
+                                 viewBox="0 0 24 24">
+                                 <path d="M7 16h13v1h-13v-1zm13-3h-13v1h13v-1zm0-6h-5v1h5v-1zm0 3h-5v1h5v-1zm-17-8v17.199c0 .771-1 .771-1 0v-15.199h-2v15.98c0 1.115.905 2.02 2.02 2.02h19.958c1.117 0 2.022-.904 2.022-2.02v-17.98h-21zm19 17h-17v-15h17v15zm-9-12h-6v4h6v-4z"
+                                    />
+                              </svg>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
